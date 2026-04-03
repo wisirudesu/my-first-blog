@@ -1,9 +1,135 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>My Blog</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MY BLOG - PRAC</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <h1>Welcome to my blog!</h1>
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">WISLEY</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="personal-header" style="background: var(--bg); padding: 100px 0 120px; border-bottom: 1px solid #222; text-align: center;">
+    <div class="container">
+      <h1 class="glitch" data-text="HI I'M WISLEY MATIAS" style="font-size: 3rem;">
+        HI I'M WISLEY MATIAS
+      </h1>
+      <p style="color: #aaa; font-family: Arial, Helvetica, sans-serif; font-size: 1.2rem;">
+        Welcome to my corner matrix
+      </p>
+      <div style="margin-top: 1.5rem;">
+        <span class="badge">DEVELOPER</span>
+        <span class="badge">GAMER</span>
+        <span class="badge">COFFEE ADDICT</span>
+      </div>
+    </div>
+  </div>
+
+  <main class="container mt-5">
+    <div class="text-center mb-5">
+      <h2 style="color: #fff;">LATEST FROM THE GRID</h2>
+      <p>Thoughts, bugs, and late-night gaming sessions</p>
+    </div>
+
+    <!-- Blog Cards Grid  -->
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&auto=format" class="card-img-top" alt="Coding on laptop">
+          <div class="card-body">
+            <span class="badge" style="margin-bottom:1rem; display:inline-block;">Coding Journey</span>
+            <h3 class="card-title">How I Learned to Code in 6 Months</h3>
+            <p class="card-text">From zero to a full-time developer in just six months of dedicated learning and practice.</p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f?w=500&auto=format" class="card-img-top" alt="Gaming setup">
+          <div class="card-body">
+            <span class="badge" style="margin-bottom:1rem; display:inline-block;">Gaming Life</span>
+            <h3 class="card-title">My Valorant Setup & Settings</h3>
+            <p class="card-text">After reaching Gold 3, here are the settings and gear that helped me improve.</p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=500&auto=format" class="card-img-top" alt="Coffee cup">
+          <div class="card-body">
+            <span class="badge" style="margin-bottom:1rem; display:inline-block;">Coffee Chronicles</span>
+            <h3 class="card-title">My Coffee Brewing Routine</h3>
+            <p class="card-text">How I start every day with the perfect cup of coffee to fuel my coding sessions.</p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <!-- Newsletter Section -->
+    <div class="row mt-5">
+      <div class="col-12">
+        <div style="background: var(--surface); border: 1px solid #333; padding: 3rem; border-radius: 8px; text-align: center;">
+          <h3>JOIN THE TRANSMISSION</h3>
+          <p class="text-muted mb-4">Latest posts, gaming logs & system updates straight to your terminal.</p>
+          <form style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+            <input type="email" class="form-control" style="width: 300px;" placeholder="Enter your email address;">
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h5>WISLEY'S TERMINAL</h5>
+          <p class="text-muted small">Logging my journey through code, pixels, and caffeine. Thanks for connecting.</p>
+        </div>
+        <div class="footer-section">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="index.html" class="text-muted">Home</a></li>
+            <li><a href="about.html" class="text-muted">About me</a></li>
+            <li><a href="contact.html" class="text-muted">Let's talk</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h5>Connect</h5>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <a href="#" class="btn" style="padding: 0.25rem 1rem;">X</a>
+            <a href="https://discord.com/wisirudesu/" class="btn" style="padding: 0.25rem 1rem;">Discord</a>
+            <a href="https://github.com/wisirudesu" class="btn" style="padding: 0.25rem 1rem;">GitHub</a>
+            <a href="https://www.instagram.com/wihseuli_m/" class="btn" style="padding: 0.25rem 1rem;">Instagram</a>
+            <a href="https://www.facebook.com/wisiru.desu/" class="btn" style="padding: 0.25rem 1rem;">Facebook</a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="text-center text-muted small">
+        © 2026 Wisley Takahashi · running on pure monochrome & late-night vibes
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
